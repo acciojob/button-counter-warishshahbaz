@@ -9,8 +9,8 @@ const App = () => {
   };
   return (
     <div>
-      <button onClick={handleClick}>Click me</button>
       <p>Button clicked {count} times</p>
+      <button onClick={handleClick}>Click me</button>
     </div>
   );
 };
